@@ -1,50 +1,19 @@
 {
   "name": "martin-arvisais/omnipay-global-payments",
-  "type": "library",
   "description": "Global Payments driver for the Omnipay payment processing library",
-  "keywords": [
-    "gateway",
-    "merchant",
-    "omnipay",
-    "pay",
-    "payment",
-    "purchase",
-    "globalpayments"
-  ],
-  "license": "MIT",
   "authors": [
     {
       "name": "Martin Arvisais",
       "email": "martin@agence.ninja"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "martin-arvisais\\omnipay-global-payments\\": "src/"
-    },
-    "classmap": [
-      "src/Omnipay.php"
-    ]
-  },
-  "config": {
-    "platform": {
-      "php": "7.0"
-    }
-  },
+  "minimum-stability": "dev",
   "require": {
-    "php": "^7.0",
-    "omnipay/common": "^3"
+    "php": ">=5.3.0"
   },
-  "require-dev": {
-    "omnipay/tests": "^3",
-    "php-http/mock-client": "^1",
-    "squizlabs/php_codesniffer": "^3.5",
-    "phpro/grumphp": "^0.14"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "0.x.x-dev"
+  "autoload": {
+    "psr-0": {
+      "martin-arvisais\\omnipay-global-payments": "src/"
     }
-  },
-  "prefer-stable": true
+  }
 }
