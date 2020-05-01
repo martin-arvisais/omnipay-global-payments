@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "martin-arvisais\\omnipay-global-payments": "src/"
+      "martin-arvisais\\omnipay-global-payments\\": "src/"
     }
   }
 }
